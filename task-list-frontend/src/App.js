@@ -241,7 +241,7 @@ function App() {
               {task.completed ? 'Completed' : 'Not Completed'}
             </div>
           </div>
-        ))) : <h2>No data found</h2>}
+        ))) : <p className='noDataFound'>No data found</p>}
       </div>
     </div>
   );

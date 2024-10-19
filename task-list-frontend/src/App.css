@@ -6,6 +6,12 @@
   font-family: Arial, sans-serif;
 }
 
+.noDataFound {
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+}
+
 h1 {
   text-align: center;
 }
