@@ -1,0 +1,100 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-error.log*
+yarn-debug.log*
+.pnpm-debug.log*
+*.tsbuildinfo
+
+# Logs
+logs
+*.log
+logs/**/*.log
+npm-debug.log*
+yarn-debug.log*
+lerna-debug.log*
+.pnpm-debug.log*
+*.tgz
+
+# Dependency directories
+node_modules/
+jspm_packages/
+.pnp/
+.pnp.js
+# Yarn v2
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnpm-debug.log*
+.yarn-integrity
+.yarn-metadata.json
+
+# Misc
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+.idea/
+.vscode/
+.vscode-test/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Coverage and build directories
+coverage/
+build/
+dist/
+out/
+.temp/
+
+# React build files
+*.reactdevtools
+
+# OS and editor specific files
+Thumbs.db
+*.sublime-workspace
+*.swp
+*.lock-wscript
+!.yarn/unplugged
+
+# ESLint cache
+.eslintcache
+
+# TypeScript
+*.tsbuildinfo
+
+# IDE specific
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Parcel-bundler cache
+.cache/
+
+# Storybook files
+.storybook/
+
+# Next.js build files
+.next/
+
+# Nuxt.js build files
+.nuxt/
+
+# Gatsby files
+.cache/
+public/
+
+# Stylelint cache
+.stylelintcache

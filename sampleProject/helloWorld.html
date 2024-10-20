@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World Example</title>
+</head>
+<body>
+    <h1>Response from Server:</h1>
+    <div id="message">Loading...</div>
+
+    <script>
+        // Function to call the server route and update the message
+        async function fetchHelloWorld() {
+            try {
+                // Replace 'http://localhost:3000/hello' with your server's URL and route
+                const response = await fetch('http://127.0.0.1:8146/hello/world/');
+                console.log(response);
+                if (response.ok) {
+                    const data = await response.text();
+                    console.log(data);
+                    document.getElementById('message').innerText = data;
+                } else {
+                    document.getElementById('message').innerText = 'Error: Unable to fetch data';
+                }
+            } catch (error) {
+                document.getElementById('message').innerText = 'Error: ' + error.message;
+            }
+        }
+
+        // Call the function to fetch the data on page load
+        fetchHelloWorld();
+    </script>
+</body>
+</html>
